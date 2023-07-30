@@ -312,3 +312,47 @@ nav {
     padding: 0px 35px;
     box-sizing: content-box;
 }
+
+#ContactForm {
+    justify-content: center;
+    padding: 10px 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14pt;
+}
+
+#email {
+    padding-top: 50px;
+}
+
+#message {
+    padding-top: 50px
+}
+
+input[type=text], textarea {
+    width: 300px;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 4px;
+}
+
+input[type=message], select, textarea {
+    width: 500px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 4px;
+    resize: vertical;
+    padding: 0 12px 160px;
+}
+
+input[type=submit] {
+    padding: 8px 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 15pt;
+    background-color: rgb(68, 68, 68);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-inline: 3px;
+}
