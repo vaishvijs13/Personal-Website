@@ -60,6 +60,15 @@ a:visited {
     -ms-transform: translateX(-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+    
+#Pages button {
+    box-sizing: content-box;
+    margin: 0.30vw;
+    margin-top: 0;
 }
 
 #VisionHeading {
@@ -170,18 +179,6 @@ nav {
     text-align: center;
 }
 
-.ExColumn1 {
-    width: 25%;
-    margin-left: 40px;
-    margin-top: 20px;
-    padding: 0px 35px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 3px;
-    box-sizing: content-box;
-}
-
 #ExperienceHeading3 {
     justify-content: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -250,40 +247,35 @@ nav {
     text-align: center;
 }
 
-.PoColumn1 {
-    width: 50%;
-    margin-left: -50px;
-    margin-top: 5px;
-    padding: 0px 35px;
-    box-sizing: content-box;
-    position: absolute;
+.pRow1, .pRow2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 4px 0px;
 }
 
-.PoColumn2 {
-    width: 50%;
-    margin-left: 665px;
-    margin-top: 5px;
+.pRow1 div, .pRow2 div {
     padding: 0px 35px;
+    width: 50%;
     box-sizing: content-box;
-    position: absolute;
+    margin: 1.04vw;
+    margin-top: 0;
 }
 
-.PoColumn3 {
-    position: absolute;
-    width: 50%;
-    margin-left: -50px;
-    margin-top: 650px;
-    padding: 0px 35px;
-    box-sizing: content-box;
+.cRow1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 4px 0px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
-.PoColumn4 {
-    position: absolute;
+.cRow1 div {
     width: 50%;
-    margin-left: 665px;
-    margin-top: 650px;
-    padding: 0px 35px;
     box-sizing: content-box;
+    margin: 0.70vw;
+    margin-top: 0;
 }
 
 #ContactForm {
